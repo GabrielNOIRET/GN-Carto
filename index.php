@@ -21,21 +21,12 @@
 		</div>
 
 		<div id = "menu" >
-			<header>
-				<?php include 'includes/header.php'; ?>
-			</header>
-
-			<nav id="test">
-				<?php include 'includes/nav.php'; ?>
-			</nav>
-
-			<footer>
-				<?php include 'includes/footer.php'; ?>
-			</footer>
+			<header><?php include 'includes/header.php'; ?></header>
+			<nav id="test"><?php include 'includes/nav.php'; ?></nav>
+			<footer><?php include 'includes/footer.php'; ?></footer>
 		</div>
 		
 		<div id= "page">
-
 			<section id="Lien_1"><?php include 'includes/Lien_1.php'; ?></section>
 
 			<section id="tp_webmap"><?php include 'includes/tp_webmap.php'; ?></section>
